@@ -420,13 +420,17 @@ TELEGRAM_CHAT_ID=
 ╚════════════════════════════════════════════════════════════════╝
 ```
 
-### 🎥 **WATCH VIDEO TUTORIAL**
+### 🎥 **VIDEO TUTORIAL - KLIK UNTUK NONTON**
 
-<a href="https://www.youtube.com/watch?v=eTNSkWBMewY" target="_blank">
-  <img src="https://img.youtube.com/vi/eTNSkWBMewY/maxresdefault.jpg" width="100%" height="auto" alt="Termux WhatsApp Bot Tutorial">
-</a>
+<div align="center">
 
-**[▶️ Tonton Tutorial Lengkap di YouTube](https://www.youtube.com/watch?v=eTNSkWBMewY)** - Setup WhatsApp Bot di Termux
+[![Watch the video](https://img.shields.io/badge/▶️_TONTON_TUTORIAL_DI_YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=eTNSkWBMewY)
+
+**Video ID:** eTNSkWBMewY  
+**Duration:** Full Setup Guide  
+**Platform:** Termux (Android Phone)
+
+</div>
 
 ---
 
@@ -595,13 +599,17 @@ pm2 restart all
 ╚════════════════════════════════════════════════════════════════╝
 ```
 
-### 🎥 **WATCH VIDEO TUTORIAL**
+### 🎥 **VIDEO TUTORIAL - KLIK UNTUK NONTON**
 
-<a href="https://www.youtube.com/watch?v=LHuShHC0T0U" target="_blank">
-  <img src="https://img.youtube.com/vi/LHuShHC0T0U/maxresdefault.jpg" width="100%" height="auto" alt="Panel Hosting Bot Tutorial">
-</a>
+<div align="center">
 
-**[▶️ Tonton Tutorial Lengkap di YouTube](https://www.youtube.com/watch?v=LHuShHC0T0U)** - Deploy Bot ke Pterodactyl Panel
+[![Watch the video](https://img.shields.io/badge/▶️_TONTON_TUTORIAL_DI_YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=LHuShHC0T0U)
+
+**Video ID:** LHuShHC0T0U  
+**Duration:** Complete Panel Setup  
+**Platform:** Pterodactyl Panel / VPS
+
+</div>
 
 ---
 
