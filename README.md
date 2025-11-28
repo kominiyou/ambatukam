@@ -35,6 +35,57 @@
 
 ---
 
+## 📥 Download & Get Started
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║                  🚀 DOWNLOAD SCRIPT SEKARANG                  ║
+╚════════════════════════════════════════════════════════════════╝
+```
+
+### ⬇️ Quick Download Options
+
+| | | |
+|:---:|:---:|:---:|
+| **[📦 Download ZIP](https://github.com/kominiyou/ambatukam/archive/refs/heads/main.zip)** | **[🔗 Clone via Git](https://github.com/kominiyou/ambatukam)** | **[📄 View on GitHub](https://github.com/kominiyou/ambatukam)** |
+| `main.zip (Full Script)` | `git clone https://github.com/kominiyou/ambatukam.git` | `Browse Repository` |
+
+<table border="0">
+<tr>
+<td align="center">
+
+### 🟢 Method 1: Download ZIP
+```bash
+# Extract after download
+unzip ambatukam-main.zip
+cd ambatukam-main
+npm install
+```
+
+</td>
+<td align="center">
+
+### 🟡 Method 2: Clone with Git
+```bash
+git clone https://github.com/kominiyou/ambatukam.git
+cd ambatukam
+npm install
+```
+
+</td>
+</tr>
+</table>
+
+**Size:** ~2MB (before node_modules)  
+**Format:** ZIP archive  
+**Contains:** Full source code + config files
+
+</div>
+
+---
+
 ## 🎬 Video Tutorials dengan Demonstrasi
 
 <div align="center">
