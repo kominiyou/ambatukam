@@ -420,6 +420,16 @@ TELEGRAM_CHAT_ID=
 ╚════════════════════════════════════════════════════════════════╝
 ```
 
+### 🎥 **WATCH VIDEO TUTORIAL**
+
+<a href="https://www.youtube.com/watch?v=eTNSkWBMewY" target="_blank">
+  <img src="https://img.youtube.com/vi/eTNSkWBMewY/maxresdefault.jpg" width="100%" height="auto" alt="Termux WhatsApp Bot Tutorial">
+</a>
+
+**[▶️ Tonton Tutorial Lengkap di YouTube](https://www.youtube.com/watch?v=eTNSkWBMewY)** - Setup WhatsApp Bot di Termux
+
+---
+
 **Reference Repos yang Verified:**
 - 🔗 https://github.com/fdciabdul/termux-whatsapp-bot
 - 🔗 https://github.com/arugaz/whatsapp-bot
@@ -584,6 +594,16 @@ pm2 restart all
 ║                  Verified Working on GitHub                    ║
 ╚════════════════════════════════════════════════════════════════╝
 ```
+
+### 🎥 **WATCH VIDEO TUTORIAL**
+
+<a href="https://www.youtube.com/watch?v=LHuShHC0T0U" target="_blank">
+  <img src="https://img.youtube.com/vi/LHuShHC0T0U/maxresdefault.jpg" width="100%" height="auto" alt="Panel Hosting Bot Tutorial">
+</a>
+
+**[▶️ Tonton Tutorial Lengkap di YouTube](https://www.youtube.com/watch?v=LHuShHC0T0U)** - Deploy Bot ke Pterodactyl Panel
+
+---
 
 **Reference Hosting Services:**
 - 🔗 https://github.com/pterodactyl/panel (Panel Documentation)
