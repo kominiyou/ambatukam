@@ -390,6 +390,11 @@ TELEGRAM_CHAT_ID=
 termux-setup-storage
 ```
 
+> **📺 Video Tutorial Reference:**
+> - [Termux WhatsApp Bot Setup 2024](https://www.youtube.com/results?search_query=termux+whatsapp+bot+nodejs+setup)
+> - [GataBot MD Termux Tutorial](https://www.youtube.com/results?search_query=GataBot+MD+termux+setup)
+> - [Baileys WhatsApp Bot Termux](https://www.youtube.com/results?search_query=baileys+whatsapp+bot+termux)
+
 ### Step 2: Install Dependencies
 
 ```bash
@@ -492,19 +497,27 @@ pm2 restart all
 
 ### Reference GitHub Repos (Verified Working)
 
-1. **fdciabdul/termux-whatsapp-bot**
+1. **fdciabdul/termux-whatsapp-bot** ⭐ RECOMMENDED
    - Lightweight, simple setup
-   - Link: https://github.com/fdciabdul/termux-whatsapp-bot
+   - GitHub: https://github.com/fdciabdul/termux-whatsapp-bot
+   - 📺 Tutorial: https://www.youtube.com/results?search_query=fdciabdul+termux+whatsapp+bot+setup
 
 2. **arugaz/whatsapp-bot**
    - Multi-language support
-   - PM2 ready
-   - Link: https://github.com/arugaz/whatsapp-bot
+   - PM2 ready for 24/7
+   - GitHub: https://github.com/arugaz/whatsapp-bot
+   - 📺 Tutorial: https://www.youtube.com/results?search_query=arugaz+whatsapp+bot+termux
 
 3. **ZefianAlfian/zzbott**
    - Beginner friendly
    - Complete documentation
-   - Link: https://github.com/ZefianAlfian/zzbott
+   - GitHub: https://github.com/ZefianAlfian/zzbott
+   - 📺 Tutorial: https://www.youtube.com/results?search_query=ZefianAlfian+zzbott+termux
+
+**📱 Other Popular Options:**
+- **GataNina-Li/GataBot-MD** - Full-featured: https://github.com/GataNina-Li/GataBot-MD
+- **rishabhsahilll/AI-Jarvis-WhatsApp-Bot** - AI-powered: https://github.com/rishabhsahilll/AI-Jarvis-WhatsApp-Bot
+- **guiireal/takeshi-bot** - Brazilian: https://github.com/guiireal/takeshi-bot
 
 </details>
 
@@ -554,6 +567,11 @@ zip -r ambatukam.zip . \
   -x ".env*" \
   -x ".git/*"
 ```
+
+> **📺 Video Tutorial Reference:**
+> - [Pterodactyl Panel Setup Guide](https://www.youtube.com/results?search_query=pterodactyl+panel+nodejs+bot+setup)
+> - [Discord Bot on Pterodactyl Panel](https://www.youtube.com/results?search_query=pterodactyl+panel+discord+bot+nodejs)
+> - [Node.js Bot Panel Hosting](https://www.youtube.com/results?search_query=pterodactyl+panel+node.js+deployment)
 
 ### Step 2: Upload ke Panel
 
@@ -616,22 +634,29 @@ zip -r ambatukam.zip . \
 | **Replit** | Free/Paid | ✅ Yes | 200MB+ | Good |
 | **Heroku** | Paid | ✅ Yes | Limited | Legacy |
 
-### Reference GitHub Repos
+### Reference GitHub Repos & Documentation
 
-1. **pterodactyl/panel**
-   - Official Panel documentation
-   - Setup & configuration guides
-   - Link: https://github.com/pterodactyl/panel
+1. **pterodactyl/panel** - Official Panel
+   - Documentation: https://github.com/pterodactyl/panel
+   - Setup Guide: https://docs.pterodactyl.io/
+   - 📺 Tutorials: https://www.youtube.com/results?search_query=pterodactyl+panel+setup+guide
 
-2. **WhiskeySockets/Baileys**
-   - WhatsApp library used
-   - Implementation examples
-   - Link: https://github.com/WhiskeySockets/Baileys
+2. **WhiskeySockets/Baileys** - WhatsApp Library
+   - GitHub: https://github.com/WhiskeySockets/Baileys
+   - 📺 Tutorials: https://www.youtube.com/results?search_query=baileys+whatsapp+bot+nodejs
 
-3. **nodejs/node**
-   - Node.js official repository
-   - Version info & support
-   - Link: https://github.com/nodejs/node
+3. **MFHaZe/Pterodactyl-Nodejs-egg** - Node.js Egg for Panel
+   - GitHub: https://github.com/MFHaZe/Pterodactyl-Nodejs-egg
+   - Pre-configured for Node.js bots
+
+4. **Nodeactyl/Nodeactyl** - API Library
+   - GitHub: https://github.com/Nodeactyl/Nodeactyl
+   - Control Pterodactyl from Node.js
+
+**📺 Panel Hosting Services with Guides:**
+- Server4You: https://kb.server4you.com/game-servers/pterodactyl/discord-bot
+- Drako Development: https://docs.drakodevelopment.net/getting-started/pterodactyl-setup-guide
+- Champion Tickets: https://nidzo-docs.gitbook.io/ticketsbot/installation-and-setup/pterodactyl
 
 ### Troubleshooting Panel Deployment
 
