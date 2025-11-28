@@ -2,13 +2,59 @@
 
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://img.shields.io/badge/🚀_Self_Bot_WhatsApp_🚀-000?style=for-the-badge&logo=whatsapp&logoColor=25D366" alt="WhatsApp Bot">
+<!-- Animated Header -->
+<img src="https://img.shields.io/badge/🚀_Self_Bot_WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+<img src="https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+<img src="https://img.shields.io/badge/Status-ACTIVE-00AA00?style=for-the-badge&logo=github" alt="Status">
+<img src="https://img.shields.io/badge/License-MIT-FF6600?style=for-the-badge" alt="License">
 
-<!-- Status Badges -->
-| Status | Version | Node.js | License |
-|--------|---------|---------|---------|
-| ![Status](https://img.shields.io/badge/ACTIVE-00AA00?style=flat-square&logo=github) | ![Version](https://img.shields.io/badge/1.0.0-0066FF?style=flat-square) | ![Node](https://img.shields.io/badge/18%2B-00FF00?style=flat-square&logo=node.js) | ![MIT](https://img.shields.io/badge/MIT-FF6600?style=flat-square) |
+<!-- Visitor Badge -->
+<img src="https://visitor-badge.laobi.icu/badge?page_id=kominiyou.ambatukam" alt="Visitors">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║    🎭 SELF BOT DENGAN REAL-TIME MEMORY MONITORING 🎭         ║
+║       Baileys • Node.js 20+ • Multi-Device Support           ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+⭐ **Star repo ini jika bermanfaat!** ⭐
+
+</div>
+
+---
+
+## 🎬 Video Tutorial
+
+<div align="center">
+
+### 📺 Cara Setup & Run Bot
+
+<table>
+<tr>
+<td align="center">
+<b>🖥️ Regular Terminal</b><br>
+<a href="https://www.youtube.com/results?search_query=nodejs+whatsapp+bot+setup">
+<img src="https://img.youtube.com/vi/hqdefault.jpg" width="200" height="120" alt="Terminal Setup">
+</a>
+<p><code>YouTube: Node.js WhatsApp Bot Setup</code></p>
+</td>
+<td align="center">
+<b>📱 Termux Setup</b><br>
+<a href="https://www.youtube.com/results?search_query=termux+whatsapp+bot+nodejs">
+<img src="https://img.youtube.com/vi/hqdefault.jpg" width="200" height="120" alt="Termux Setup">
+</a>
+<p><code>YouTube: Termux WhatsApp Bot</code></p>
+</td>
+<td align="center">
+<b>☁️ Panel Hosting</b><br>
+<a href="https://www.youtube.com/results?search_query=pterodactyl+panel+nodejs+bot">
+<img src="https://img.youtube.com/vi/hqdefault.jpg" width="200" height="120" alt="Panel Setup">
+</a>
+<p><code>YouTube: Pterodactyl Panel Bot</code></p>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -20,71 +66,43 @@
 
 ```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃           🎯 QUICK NAVIGATION            ┃
+┃        📋 QUICK NAVIGATION MENU         ┃
 ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
-| | | | |
-|:---:|:---:|:---:|:---:|
-| **[🎬 START](#-quick-start)** | **[⚙️ CONFIG](#-konfigurasi)** | **[⌨️ COMMANDS](#-command-list)** | **[🆘 HELP](#-troubleshooting)** |
-| **[📚 DOCS](#-panduan-lengkap)** | **[🔧 SETUP](#-instalasi)** | **[💾 MONITOR](#-monitoring--status)** | **[🔐 SECURITY](#-security--best-practices)** |
+| 🎬 | ⚙️ | ⌨️ | 🆘 | 📚 |
+|:---:|:---:|:---:|:---:|:---:|
+| **[START](#-quick-start)** | **[CONFIG](#-konfigurasi)** | **[COMMANDS](#-command-list)** | **[HELP](#-troubleshooting)** | **[DOCS](#-panduan-lengkap)** |
+
+| 🔧 | 💾 | 🔐 | 📱 | ☁️ |
+|:---:|:---:|:---:|:---:|:---:|
+| **[SETUP](#-instalasi)** | **[MONITOR](#-monitoring--status)** | **[SECURITY](#-security--best-practices)** | **[TERMUX](#-tutorial-termux)** | **[PANEL](#-tutorial-panel)** |
 
 </div>
 
 ---
 
-## 🎬 Quick Start
-
-<table align="center" border="0">
-<tr>
-<td width="50%">
-
-### 🟢 Clone & Install
-
-```bash
-git clone https://github.com/kominiyou/ambatukam.git
-cd ambatukam
-npm install
-```
-
-</td>
-<td width="50%">
-
-### 🟡 Setup & Run
-
-```bash
-cp .env.example .env
-nano .env
-npm start
-```
-
-</td>
-</tr>
-</table>
-
----
-
-## ✨ Fitur Utama
+## 🎯 Fitur Unggulan
 
 <div align="center">
 
 ```
-╔════════════════════════════════════════╗
-║      ✨ FITUR-FITUR UNGGULAN ✨        ║
-╠════════════════════════════════════════╣
-║                                        ║
-║  🔌  Koneksi WhatsApp Real-time       ║
-║  🎮  Full Command System dengan Prefix ║
-║  💾  Auto Session Save & Recovery      ║
-║  📱  Media Download Support            ║
-║  👥  Group Management Tools            ║
-║  🏷️   View Once Message Handler        ║
-║  ⚡  Real-time RAM Monitoring         ║
-║  🛡️  Auto-filter Console Logs         ║
-║  🔄  Auto-Reconnect Protection        ║
-║  📊  Memory Limit Protection          ║
-║                                        ║
-╚════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════╗
+║           ✨ FITUR-FITUR YANG TERSEDIA ✨                 ║
+╠═══════════════════════════════════════════════════════════╣
+║                                                           ║
+║  ✅ 🔌 Koneksi WhatsApp Real-time (Multi-Device)        ║
+║  ✅ 🎮 Full Command System dengan Dynamic Prefix        ║
+║  ✅ 💾 Auto Session Save & Recovery                     ║
+║  ✅ 📱 Media Download & Processing Support              ║
+║  ✅ 👥 Advanced Group Management Tools                  ║
+║  ✅ 🏷️  View Once Message Handler                       ║
+║  ✅ ⚡ Real-time RAM & CPU Monitoring                   ║
+║  ✅ 🛡️  Console Log Auto-Filter                        ║
+║  ✅ 🔄 Smart Auto-Reconnect Protection                 ║
+║  ✅ 📊 Memory Limit Protection System                   ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
 ```
 
 </div>
@@ -94,101 +112,101 @@ npm start
 ## ⚙️ Requirements
 
 <details open>
-<summary><b>📋 System Requirements</b></summary>
+<summary><b>📋 System Requirements (Click to expand)</b></summary>
 
-| Item | Requirement | Status |
-|------|------------|--------|
-| **OS** | Linux / Windows / macOS | ✅ |
-| **Node.js** | v18.0.0 or higher | ✅ |
-| **npm/yarn** | Latest version | ✅ |
-| **WhatsApp** | Personal Account | ✅ |
-| **Internet** | Stable Connection | ✅ |
-| **RAM** | Minimum 512MB | ✅ |
-| **Storage** | Minimum 200MB | ✅ |
+| Requirement | Minimum | Recommended | Status |
+|------------|---------|-------------|--------|
+| **OS** | Linux / Windows / macOS | Linux (Ubuntu 20+) | ✅ |
+| **Node.js** | **v20.0.0+** | v22 LTS | ✅ |
+| **npm** | 8.0.0+ | Latest | ✅ |
+| **WhatsApp** | Personal Account | No VOIP | ✅ |
+| **Internet** | 1 Mbps | 5+ Mbps | ✅ |
+| **RAM** | 256MB min | 512MB+ | ✅ |
+| **Storage** | 100MB | 500MB+ | ✅ |
 
 ```bash
 # Verify versions
-node --version    # >= v18.0.0
-npm --version     # latest
+node --version    # >= v20.0.0 ⭐ REQUIRED
+npm --version     # latest version
 ```
 
 </details>
 
 ---
 
-## 🚀 Instalasi
+## 🚀 Quick Start
 
-### 📥 Step 1: Clone Repository
+<table align="center" border="0">
+<tr>
+<td width="50%">
+
+### 🟢 Clone & Setup
 
 ```bash
 git clone https://github.com/kominiyou/ambatukam.git
 cd ambatukam
-```
-
-### 📦 Step 2: Install Dependencies
-
-```bash
 npm install
+cp .env.example .env
+nano .env
 ```
 
-### ⚙️ Step 3: Configure Environment
+</td>
+<td width="50%">
+
+### 🟡 Run Bot
 
 ```bash
-cp .env.example .env
-nano .env  # atau gunakan text editor favorit
+# Development
+npm run dev
+
+# Production
+npm start
+
+# Debug Mode
+BOT_LOGGER_LEVEL=info npm start
 ```
 
-<details>
-<summary><b>🔑 Konfigurasi Lengkap (.env)</b></summary>
+</td>
+</tr>
+</table>
+
+---
+
+## ⚡ Konfigurasi
+
+<details open>
+<summary><b>🔑 Environment Variables (.env)</b></summary>
 
 ```env
 # ════════════════════════════════════════
-# 🔧 BOT CONFIGURATION
+# 🔧 BOT CORE CONFIG
 # ════════════════════════════════════════
 
-# Logger Level: info, warn, error, fatal, silent
-BOT_LOGGER_LEVEL=silent
-
-# Log semua messages (true/false)
-BOT_LOG_MESSAGE=true
-
-# Max retries sebelum disconnect (1-10)
-BOT_MAX_RETRIES=3
+BOT_LOGGER_LEVEL=silent          # Level: info|warn|error|fatal|silent
+BOT_LOG_MESSAGE=true             # Log all messages (true/false)
+BOT_MAX_RETRIES=3                # Retry attempts (1-10)
 
 # ════════════════════════════════════════
 # 📱 WHATSAPP CONNECTION
 # ════════════════════════════════════════
 
-# Nomor untuk Pairing Code (format: 62XXXXXXXXXXX)
-BOT_NUMBER_PAIR=6289681008411
-
-# Owner Number (support multiple: 62XX,62YY,62ZZ)
-BOT_NUMBER_OWNER=6289681008411
-
-# Session name
-BOT_SESSION_NAME=hisoka
+BOT_NUMBER_PAIR=6289681008411    # Nomor untuk Pairing Code
+BOT_NUMBER_OWNER=6289681008411   # Owner (multiple: 62XX,62YY)
+BOT_SESSION_NAME=hisoka          # Session name
 
 # ════════════════════════════════════════
-# 💬 COMMAND CONFIGURATION
+# 💬 COMMAND CONFIG
 # ════════════════════════════════════════
 
-# Command Prefix (regex pattern)
 BOT_PREFIX="(?:[°•π÷×¶∆£¢€¥®™+✓=|/~!?@#%^&.©^])"
-
-# Allow commands tanpa prefix
 BOT_ALLOWED_NO_PREFIX=true
-
-# Reaction emoji (untuk auto-reaction)
 BOT_REACT_STATUS=❤️,💀,😋,😊,😒,🔥
 
 # ════════════════════════════════════════
-# 📡 EXTERNAL SERVICES (Optional)
+# 📡 EXTERNAL (Optional)
 # ════════════════════════════════════════
 
-# Telegram Bot Token
 TELEGRAM_TOKEN=
-
-# Telegram Chat ID
 TELEGRAM_CHAT_ID=
 ```
 
@@ -200,47 +218,46 @@ TELEGRAM_CHAT_ID=
 
 ### ▶️ Jalankan Bot
 
-<div align="center">
-
-| Mode | Command | Gunakan Untuk |
-|------|---------|----------------|
-| 🔄 **Development** | `npm run dev` | Development & Testing |
-| 🎯 **Production** | `npm start` | Running Live |
-| 🐛 **Debug** | `BOT_LOGGER_LEVEL=info npm start` | Troubleshooting |
-
-</div>
+| Mode | Command | Gunakan |
+|------|---------|---------|
+| 🔄 Development | `npm run dev` | Development & Testing |
+| 🎯 Production | `npm start` | Running Live 24/7 |
+| 🐛 Debug | `BOT_LOGGER_LEVEL=info npm start` | Troubleshooting |
 
 ### 🔗 Connect WhatsApp
 
 <details open>
-<summary><b>📱 Connection Methods</b></summary>
+<summary><b>📱 Connection Methods (Click to expand)</b></summary>
 
-#### 🟢 Opsi 1: QR Code Scan
+#### 🟢 Method 1: QR Code Scan
 
-```
-✅ Langkah-langkah:
-1. Run: npm start
-2. Scan QR code dari console
-3. Bot langsung connect ✅
+```bash
+# Step 1: Run bot
+npm start
 
-⚡ Kelebihan: Cepat & Mudah
+# Step 2: Scan QR code dari console dengan WhatsApp
+# Step 3: Bot connect otomatis ✅
+
+⚡ Kelebihan: Cepat & mudah
 ❌ Kekurangan: Session terbatas 7 hari
 ```
 
-#### 🟡 Opsi 2: Pairing Code ⭐ (Recommended)
+#### 🟡 Method 2: Pairing Code ⭐ RECOMMENDED
 
-```
-✅ Langkah-langkah:
-1. Set BOT_NUMBER_PAIR=6289681008411 di .env
-2. Run: npm start
-3. Copy code dari console
-4. Buka WhatsApp > Settings > Linked Devices
-5. Pilih "Link a Device"
-6. Paste code yang dicopy
-7. Done! Bot connect ✅
+```bash
+# Step 1: Edit .env
+BOT_NUMBER_PAIR=6289681008411
 
-⚡ Kelebihan: Session stabil & aman
-⏱️ Durasi: Session berlaku selama device terpasang
+# Step 2: Run bot
+npm start
+
+# Step 3: Copy code dari console
+# Step 4: WhatsApp > Settings > Linked Devices > Link Device
+# Step 5: Paste code
+# Step 6: Done! ✅
+
+⚡ Kelebihan: Stabil & aman
+⏱️ Duration: Session berlaku selama device terpasang
 ```
 
 </details>
@@ -252,9 +269,9 @@ TELEGRAM_CHAT_ID=
 <div align="center">
 
 ```
-╔════════════════════════════════════════════════╗
-║            📋 DAFTAR LENGKAP COMMAND           ║
-╚════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════╗
+║              📋 DAFTAR LENGKAP COMMAND                    ║
+╚════════════════════════════════════════════════════════════╝
 ```
 
 </div>
@@ -262,42 +279,34 @@ TELEGRAM_CHAT_ID=
 ### 🎯 Basic Commands
 
 <details open>
-<summary><b>📌 Command Dasar & Status Check</b></summary>
+<summary><b>📌 Command Dasar (Click to expand)</b></summary>
 
-#### ⏱️ Ping & Latency Check
-
-```
-Command:  .p  atau  .ping
-
-Fungsi:   Check latency & uptime bot
-Output:   
-  ✅ Pong! Latency: 145ms
-  ✅ Uptime: 2h 34m 12s
-```
-
-#### 📊 Memory Monitoring
+#### ⏱️ Ping & Status
 
 ```
-Command:  .cekram / .checkram / .ramcheck
+.p  |  .ping
+├─ Check latency & uptime
+└─ Output: Pong! Latency: 145ms | Uptime: 2h 34m
+```
 
-Fungsi:   Quick RAM check (format simple)
+#### 📊 Memory Monitor
 
-Output:   
-  ╭━━━『 *RAM STATUS* 』━━━┄
-  ┃ Process Memory: 88.18 MB / 50.24 GB
-  ┃ Usage: 0.2%
-  ┃ System Memory: 17.50 GB / 62.80 GB
-  ┃ Usage: 27.8%
-  ╰━━━━━━━━━━━━━━━┄
+```
+.cekram  |  .checkram  |  .ramcheck
+├─ Quick RAM check (simple)
+└─ Output: Process & System Memory Status
+
+.memory  |  .ram  |  .mem
+├─ Detailed memory status
+└─ Output: Heap, Heap Usage, Monitor Config
 ```
 
 #### 📋 Menu & Help
 
 ```
-Command:  .menu / .help / .info
-
-Fungsi:   Tampilkan semua command yang tersedia
-Output:   Command list dengan deskripsi lengkap
+.menu  |  .help  |  .info
+├─ Show all commands
+└─ Output: Command list dengan deskripsi
 ```
 
 </details>
@@ -305,48 +314,21 @@ Output:   Command list dengan deskripsi lengkap
 ### 👥 Group Commands
 
 <details>
-<summary><b>👨‍👩‍👧 Group Management & Utilities</b></summary>
-
-#### 📣 Tag All Members (Hidetag)
+<summary><b>👨‍👩‍👧 Group Management (Click to expand)</b></summary>
 
 ```
-Command:  .ht @text / .hidetag @text / .everyone @text / .all @text
+.ht @text  |  .hidetag @text  |  .everyone @text
+├─ Tag semua members dengan pesan
+├─ Contoh: .ht mari diskusi
+└─ Output: Hidetag mention ke semua member
 
-Fungsi:   Tag semua members di grup dengan pesan
-Contoh:   
-  .ht mari diskusi
-  .ht @everyone meeting at 3pm
+.groups  |  .listgroups
+├─ Show all groups yang diikuti
+└─ Output: Total groups & participant stats
 
-Output:   
-  ✅ Mention semua member
-  ✅ Tidak muncul di notifikasi umum
-  ✅ Pesan tersampaikan ke semua
-```
-
-#### 📊 List Groups & Members
-
-```
-Command:  .groups / .listgroups / .group
-
-Fungsi:   Tampilkan semua group yang diikuti
-Output:   
-  Total Groups: 5
-  
-  1. 👥 Group A - 23 members
-  2. 👥 Group B - 45 members
-  3. 👥 Group C - 12 members
-```
-
-#### 👤 List Contacts
-
-```
-Command:  .contacts / .listcontacts / .contact
-
-Fungsi:   Tampilkan statistik kontak
-Output:   
-  📋 All Contacts: 256
-  ✅ Saved: 189
-  ❌ Not Saved: 67
+.contacts  |  .listcontacts
+├─ Show contacts statistics
+└─ Output: Saved/Not Saved/Total count
 ```
 
 </details>
@@ -354,37 +336,17 @@ Output:
 ### 📱 Media Commands
 
 <details>
-<summary><b>🎬 Media & File Handler</b></summary>
-
-#### 🖼️ View Once Message Opener
+<summary><b>🎬 Media & File (Click to expand)</b></summary>
 
 ```
-Command:  .rvo / .viewonce / .vo
+.rvo  |  .viewonce  |  .vo
+├─ Buka pesan view once
+├─ Format: Image, Video, Audio, Document, Sticker
+└─ Cara: Reply ke view once → .rvo
 
-Format Support:
-  🖼️ Image          🎥 Video
-  🎵 Audio          📄 Document
-  🏷️ Sticker
-
-Cara Pakai:
-  1. Reply ke pesan view once
-  2. Ketik: .rvo
-  3. Media akan dikirim ulang tanpa view once
-
-⚠️ Note: Pesan original tetap view once
-```
-
-#### 📎 Quote & Forward Message
-
-```
-Command:  .q / .quoted
-
-Cara Pakai:
-  1. Reply ke pesan apapun
-  2. Ketik: .q
-  3. Pesan akan di-forward
-
-Gunakan untuk: Backup pesan penting
+.q  |  .quoted
+├─ Quote & forward message
+└─ Cara: Reply ke message → .q
 ```
 
 </details>
@@ -392,37 +354,21 @@ Gunakan untuk: Backup pesan penting
 ### ⚡ Advanced Commands
 
 > [!WARNING]
-> **⚠️ OWNER ONLY - Advanced Tools!**  
-> Command ini berbahaya & hanya untuk owner terpercaya
+> **⚠️ OWNER ONLY - Advanced Tools!**
 
 <details>
-<summary><b>💻 Developer & System Tools</b></summary>
-
-#### 🔧 Execute JavaScript Code
+<summary><b>💻 Developer Tools (Click to expand)</b></summary>
 
 ```
-Command:  .eval code / .> code
+.eval code  |  .> code
+├─ Execute JavaScript
+├─ Contoh: .eval return process.version
+└─ ⚠️ Gunakan untuk debug saja
 
-Contoh:
-  .eval return process.version
-  .> JSON.stringify(global.memoryMonitor?.getStatus())
-
-⚠️ Penggunaan: Debug & troubleshooting saja
-🚨 Bahaya: Bisa merusak bot jika salah
-```
-
-#### 🖥️ Execute System Command
-
-```
-Command:  .exec command / .bash command / .$ command
-
-Contoh:
-  .bash ls -la
-  .$ pwd
-  .exec whoami
-
-⚠️ Penggunaan: Admin tasks saja
-🚨 Bahaya: Bisa akses sensitive files
+.exec command  |  .bash command  |  .$ command
+├─ Execute bash/system command
+├─ Contoh: .bash ls -la
+└─ ⚠️ Admin tasks saja
 ```
 
 </details>
@@ -434,89 +380,269 @@ Contoh:
 <div align="center">
 
 ```
-╔════════════════════════════════════════════════╗
-║          💾 REAL-TIME MONITORING              ║
-╚════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════╗
+║          💾 REAL-TIME MONITORING SYSTEM                   ║
+╚════════════════════════════════════════════════════════════╝
 ```
 
 </div>
 
-### 💾 RAM Monitor & Memory Status
+### 💾 RAM Monitor
 
 <details open>
-<summary><b>🔍 Memory Monitoring System</b></summary>
+<summary><b>🔍 Memory Status (Click to expand)</b></summary>
 
-#### Quick RAM Check
+#### Quick Check: .cekram
+
 ```
-Command: .cekram
-
-Output:
-  ╭━━━『 *RAM STATUS* 』━━━┄
-  ┃
-  ┃ 📊 Process Memory
-  ┃ 88.18 MB / 50.24 GB
-  ┃ Usage: 0.2%
-  ┃
-  ┃ 🖥️ System Memory
-  ┃ 17.50 GB / 62.80 GB
-  ┃ Usage: 27.8%
-  ┃
-  ╰━━━━━━━━━━━━━━━┄
+╭━━━『 *RAM STATUS* 』━━━┄
+┃ Process Memory: 88.18 MB / 50.24 GB (0.2%)
+┃ System Memory: 17.50 GB / 62.80 GB (27.8%)
+╰━━━━━━━━━━━━━━━┄
 ```
 
-#### Detailed Memory Status
+#### Detailed: .memory
+
 ```
-Command: .memory
+╭━━━『 *💾 MEMORY STATUS* 』━━━┄⊱
+┃ 📊 Process Memory
+┃   • Current: 121.61 MB
+┃   • Limit: 50.24 GB
+┃   • Usage: 0.2%
+┃
+┃ 🔧 Heap Memory
+┃   • Total: 2.15 GB
+┃   • Used: 45.82 MB
+┃
+┃ 🖥️ System Memory
+┃   • Total: 62.80 GB
+┃   • Used: 20.07 GB
+┃   • Free: 42.73 GB
+┃
+┃ ⚙️ Monitor Config
+┃   • Enabled: ✅ Yes
+┃   • Check: 30s
+┃   • Uptime: 2h 34m 12s
+┃
+╰━━━━━━━━━━━━━━━┄⊱
 
-Output:
-  ╭━━━『 *💾 MEMORY STATUS* 』━━━┄⊱
-  ┃
-  ┃ 📊 Process Memory
-  ┃ • Current: 121.61 MB
-  ┃ • Limit: 50.24 GB
-  ┃ • Usage: 0.2%
-  ┃
-  ┃ 🔧 Heap Memory
-  ┃ • Total: 2.15 GB
-  ┃ • Used: 45.82 MB
-  ┃ • Heap Usage: 2.1%
-  ┃
-  ┃ 🖥️ System Memory (Server)
-  ┃ • Total: 62.80 GB
-  ┃ • Used: 20.07 GB
-  ┃ • Free: 42.73 GB
-  ┃ • Usage: 31.9%
-  ┃
-  ┃ ⚙️ Monitor Configuration
-  ┃ • Status: ✅ Enabled
-  ┃ • Auto Detect: ✅ 80%
-  ┃ • Check Interval: 30 seconds
-  ┃ • Uptime: 2h 34m 12s
-  ┃ • Last Check: 5s ago
-  ┃
-  ╰━━━━━━━━━━━━━━━┄⊱
-
-  🟢 Status: HEALTHY (Usage < 50%)
+🟢 Status: HEALTHY (Usage < 50%)
 ```
 
 </details>
 
-### 🛡️ Auto-Protection System
+### 🛡️ Auto-Protection
 
 ```
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃    🛡️ AUTOMATIC PROTECTION      ┃
-┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃                                  ┃
-┃  ✅ Real-time monitoring (30s)   ┃
-┃  ✅ Auto-restart if exceed limit ┃
-┃  ✅ Warning at 80% usage         ┃
-┃  ✅ Clean logging (no noise)     ┃
-┃  ✅ System crash protection      ┃
-┃  ✅ Stability monitoring         ┃
-┃                                  ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+✅ Real-time monitoring (30s interval)
+✅ Auto-restart jika exceed limit
+✅ Warning notification at 80% usage
+✅ Clean logging (no noise)
+✅ System crash protection
+✅ Stability monitoring 24/7
 ```
+
+---
+
+## 📱 Tutorial Termux
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════════╗
+║         📱 RUN BOT DI TERMUX (Android Phone)              ║
+╚════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 🔧 Setup Termux
+
+<details open>
+<summary><b>📱 Instalasi Step-by-Step (Click to expand)</b></summary>
+
+#### Step 1: Install Termux
+
+1. Download Termux dari F-Droid (lebih aman dari Play Store)
+2. Buka Termux
+3. Grant storage permission:
+   ```bash
+   termux-setup-storage
+   ```
+
+#### Step 2: Install Dependencies
+
+```bash
+# Update packages
+pkg update && pkg upgrade -y
+
+# Install required tools
+pkg install bash curl wget git -y
+pkg install nodejs npm -y
+pkg install ffmpeg imagemagick -y
+pkg install libwebp -y
+```
+
+#### Step 3: Clone & Setup Bot
+
+```bash
+# Clone repository
+git clone https://github.com/kominiyou/ambatukam.git
+cd ambatukam
+
+# Install dependencies
+npm install
+
+# Create .env
+cp .env.example .env
+
+# Edit .env
+nano .env
+# Save: Ctrl+X → Y → Enter
+```
+
+#### Step 4: Run Bot
+
+```bash
+# Simple run
+npm start
+
+# Or dengan screen (keep running in background)
+pkg install screen -y
+screen -S botwa npm start
+
+# Detach: Ctrl+A then D
+# Resume: screen -r botwa
+```
+
+#### Step 5: Keep Bot 24/7
+
+```bash
+# Install PM2
+npm install -g pm2
+
+# Start bot with PM2
+pm2 start index.js --name "whatsapp-bot"
+
+# Save config
+pm2 save
+
+# Enable startup
+pm2 startup
+```
+
+#### Common Issues di Termux
+
+```
+❌ "node not found" → pkg install nodejs -y
+❌ "Permission denied" → chmod +x install.sh
+❌ "Module not found" → npm install
+❌ "Storage access" → termux-setup-storage
+```
+
+**Video Tutorial:**
+- Search: "Termux Node.js WhatsApp Bot Setup"
+- YouTube: Look for 2024-2025 tutorials
+
+</details>
+
+---
+
+## ☁️ Tutorial Panel
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════════╗
+║    ☁️ RUN BOT DI PTERODACTYL PANEL (Server Hosting)      ║
+╚════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+### 🖥️ Setup Panel Hosting
+
+<details>
+<summary><b>☁️ Panel Setup Guide (Click to expand)</b></summary>
+
+#### Prerequisites
+
+```
+✅ Panel account access
+✅ Node.js server created
+✅ SSH access (optional)
+✅ Bot token ready
+```
+
+#### Step 1: Export dari Replit/Local
+
+```bash
+# Export project
+git clone https://github.com/kominiyou/ambatukam.git
+cd ambatukam
+
+# Create ZIP
+zip -r ambatukam.zip . -x "node_modules/*" "sessions/*" ".env*"
+```
+
+#### Step 2: Upload ke Panel
+
+1. Login ke **Panel Dashboard**
+2. Select bot server → **Files** tab
+3. Click **Upload** → Select ambatukam.zip
+4. Right-click ZIP → **Unarchive**
+
+#### Step 3: Install Dependencies
+
+1. Go to **Startup** or **Console** tab
+2. Run:
+   ```bash
+   npm install
+   ```
+3. Wait for completion
+
+#### Step 4: Set Environment Variables
+
+1. **Startup** or **Variables** section
+2. Add variables:
+   ```
+   BOT_NUMBER_OWNER = 6289681008411
+   BOT_SESSION_NAME = hisoka
+   BOT_LOGGER_LEVEL = silent
+   ```
+
+#### Step 5: Configure Startup
+
+1. **Startup Settings** → Set command:
+   ```
+   node index.js
+   ```
+2. Or with PM2:
+   ```
+   pm2 start index.js --name "wa-bot"
+   ```
+
+#### Step 6: Start Bot
+
+1. Click **Start** button
+2. Watch console for:
+   ```
+   Bot connected! ✅
+   ```
+
+**Popular Panels:**
+
+| Panel | Price | Node.js | Storage |
+|-------|-------|---------|---------|
+| **Pterodactyl** | $1-5/mo | ✅ v20+ | 10GB+ |
+| **Minehut** | Free/Paid | ✅ Yes | Variable |
+| **Replit** | Free/Paid | ✅ Yes | Limited |
+
+**Video Tutorial:**
+- Search: "Pterodactyl Panel Node.js Bot Setup"
+- YouTube: Panel hosting guides 2024-2025
+
+</details>
 
 ---
 
@@ -525,104 +651,76 @@ Output:
 <div align="center">
 
 ```
-╔════════════════════════════════════════════════╗
-║              🆘 SOLVING PROBLEMS               ║
-╚════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════╗
+║              🆘 SOLVING PROBLEMS                          ║
+╚════════════════════════════════════════════════════════════╝
 ```
 
 </div>
 
-### 🚨 Bot Tidak Connect / Offline
+### 🚨 Bot Tidak Connect
 
 <details>
-<summary><b>❌ Solusi Lengkap</b></summary>
+<summary><b>❌ Solusi (Click to expand)</b></summary>
 
 ```bash
-# 1️⃣ Reset session dan hapus cache
+# 1. Reset session
 rm -rf sessions/
-rm -rf node_modules/.cache/
 
-# 2️⃣ Verify .env configuration
+# 2. Verify .env
 cat .env | grep BOT_
 
-# 3️⃣ Run dengan debug mode
+# 3. Debug mode
 BOT_LOGGER_LEVEL=info npm start
 
-# 4️⃣ Try using pairing code (lebih reliable)
-# Set BOT_NUMBER_PAIR=YOUR_NUMBER di .env
+# 4. Try pairing code
+# Edit .env: BOT_NUMBER_PAIR=YOUR_NUMBER
 # npm start
 ```
 
-**Jika masih tidak connect:**
-- Pastikan WhatsApp sudah login di device
-- Check internet connection
-- Try pairing code method
-- Clear all sessions & restart
-
 </details>
 
-### 🔌 Connection Keep Dropping / Disconnecting
+### 🔌 Connection Keep Dropping
 
 <details>
-<summary><b>❌ Solusi Lengkap</b></summary>
+<summary><b>❌ Solusi (Click to expand)</b></summary>
 
 ```bash
-# 1️⃣ Increase max retries
+# 1. Increase retries
 BOT_MAX_RETRIES=10 npm start
 
-# 2️⃣ Check internet stability
-ping -c 10 8.8.8.8
+# 2. Check internet
+ping 8.8.8.8
 
-# 3️⃣ Use more reliable pairing code
-# Edit .env dan set pairing code
-# npm start
-
-# 4️⃣ Fresh session creation
+# 3. Fresh session
 rm -rf sessions/*/
 npm start
 
-# 5️⃣ Monitor connection
-.cekram  # Check RAM & system
+# 4. Monitor RAM
+.cekram
 ```
-
-**Penyebab umum:**
-- Koneksi internet tidak stabil
-- WhatsApp session expire
-- Memory usage terlalu tinggi
-- Server overload
 
 </details>
 
-### 💾 Memory Usage Tinggi / Bot Lag
+### 💾 Memory Usage Tinggi
 
 <details>
-<summary><b>❌ Solusi Lengkap</b></summary>
+<summary><b>❌ Solusi (Click to expand)</b></summary>
 
 ```bash
-# 1️⃣ Monitor memory realtime
-.cekram        # Quick check
-.memory        # Detailed check
+# 1. Quick check
+.cekram
 
-# 2️⃣ Clear old sessions & cache
+# 2. Clear cache
 rm -rf sessions/*/
 rm -rf node_modules/.cache/
 
-# 3️⃣ Restart bot cleanly
+# 3. Restart
 npm start
 
-# 4️⃣ Check what's consuming memory
+# 4. What's consuming?
 .eval console.log(process.memoryUsage())
-
-# 5️⃣ Kill & restart if needed
-pkill -f "node"
-npm start
 ```
-
-**Optimasi:**
-- Monitor setiap 1 jam
-- Clear cache weekly
-- Restart bot daily
-- Update dependencies
 
 </details>
 
@@ -633,26 +731,24 @@ npm start
 <div align="center">
 
 ```
-📦 ambatukam/
-│
-├── 📂 src/                          ← Source Code
-│   ├── 📄 index.js                 ├─ Entry point & main logic
+ambatukam/
+├── 📂 src/
+│   ├── index.js               ← Entry Point
 │   ├── 📂 handler/
-│   │   ├── 📄 message.js          ├─ Command handler
-│   │   └── 📄 event.js            └─ Event listeners
+│   │   ├── message.js        ├─ Commands
+│   │   └── event.js          └─ Events
 │   ├── 📂 helper/
-│   │   ├── 📄 inject.js           ├─ Client injector
-│   │   ├── 📄 memoryMonitor.js    ├─ RAM monitoring system
-│   │   ├── 📄 utils.js            ├─ Utility functions
-│   │   └── 📄 collect.js          └─ Message collection
+│   │   ├── inject.js         ├─ Injector
+│   │   ├── memoryMonitor.js  ├─ RAM Monitor
+│   │   ├── utils.js          ├─ Utils
+│   │   └── collect.js        └─ Collection
 │   └── 📂 db/
-│       └── 📄 json.js             └─ JSON database
-│
-├── 📂 sessions/                     ← WhatsApp Sessions (auto-generated)
-├── ⚙️ config.json                   ← Bot configuration
-├── 🔑 .env                          ← Environment variables (SECRET)
-├── 📦 package.json                  ← Dependencies & scripts
-└── 📖 README.md                     ← This documentation
+│       └── json.js           └─ Database
+├── 📂 sessions/              ← Auto-generated
+├── config.json               ← Config
+├── .env                      ← Secrets
+├── package.json              ← Dependencies
+└── README.md                 ← Docs
 ```
 
 </div>
@@ -661,71 +757,34 @@ npm start
 
 ## 🔐 Security & Best Practices
 
-<div align="center">
-
-```
-╔════════════════════════════════════════════════╗
-║            🔒 SECURITY GUIDELINES              ║
-╚════════════════════════════════════════════════╝
-```
-
-</div>
-
 <details open>
-<summary><b>🛡️ Security Checklist</b></summary>
+<summary><b>🛡️ Security Checklist (Click to expand)</b></summary>
 
-### ❌ JANGAN SHARE - Never Expose:
-
-```
-❌ File .env
-   └─ Berisi: Tokens, API keys, credentials
-
-❌ Folder sessions/
-   └─ Berisi: WhatsApp session data
-
-❌ GitHub Tokens / API Keys
-   └─ Berisi: Sensitive credentials
-
-❌ Database backups
-   └─ Berisi: User data & messages
-```
-
-### ✅ GUNAKAN - Always Use:
+### ❌ JANGAN SHARE
 
 ```
-✅ Pairing Code (bukan QR)
-   └─ Lebih aman & stabil
-
-✅ Strong BOT_NUMBER_OWNER
-   └─ Whitelist only trusted numbers
-
-✅ Environment variables
-   └─ Hide sensitive config
-
-✅ Regular backups
-   └─ Encrypt sessions before backup
-
-✅ Monitor activity
-   └─ Check logs regularly
+❌ .env file       → API keys & tokens
+❌ sessions/       → WhatsApp session data
+❌ API Keys        → Sensitive credentials
 ```
 
-### 🔄 MAINTENANCE - Regular Tasks:
+### ✅ GUNAKAN
 
 ```
-🔄 Update bot regularly
-   └─ npm update / npm install
+✅ Pairing Code    → Lebih aman
+✅ Strong Owner    → Whitelist numbers
+✅ .env variables  → Hide config
+✅ Regular backup  → Encrypt sessions
+✅ Monitor logs    → Track activity
+```
 
-🔄 Monitor memory & CPU
-   └─ Use .memory command
+### 🔄 MAINTENANCE
 
-🔄 Clear old sessions
-   └─ rm -rf sessions/*
-
-🔄 Rotate credentials
-   └─ Update tokens periodically
-
-🔄 Keep logs clean
-   └─ Archive old logs
+```
+🔄 Update regularly → npm update
+🔄 Monitor memory   → .memory command
+🔄 Clear sessions   → rm -rf sessions/*
+🔄 Rotate tokens    → Update periodically
 ```
 
 </details>
@@ -737,37 +796,34 @@ npm start
 <div align="center">
 
 ```
-╔════════════════════════════════════════════════╗
-║          📜 LICENSE & ATTRIBUTION             ║
-╚════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════╗
+║            📜 LICENSE & CONTRIBUTORS                      ║
+╚════════════════════════════════════════════════════════════╝
 ```
 
-**MIT License** - Open Source & Free to Use
+**MIT License** - Free & Open Source
 
 ---
 
 **🙏 Credits:**
-
-- **Original Author:** Dika Ardnt
-- **Fork & Customized:** kominiyou
-- **Library:** Baileys (WhatsApp Web API)
-- **Made with:** Node.js & ❤️
-
----
-
-### 🌟 Support This Project
-
-Jika project ini bermanfaat, jangan lupa:
-
-- ⭐ **Star** repository ini
-- 🍴 **Fork** untuk development Anda
-- 📢 **Share** ke teman-teman
-- 📝 **Contribute** dengan pull request
+- **Original:** Dika Ardnt
+- **Fork:** kominiyou
+- **Library:** Baileys
+- **Made with:** Node.js 20+ & ❤️
 
 ---
 
-<b>Questions?</b> Create an [Issue](https://github.com/kominiyou/ambatukam/issues)  
-<b>Want to help?</b> Send a [Pull Request](https://github.com/kominiyou/ambatukam/pulls)
+### 🌟 Support Project
+
+- ⭐ Star jika bermanfaat
+- 🍴 Fork untuk development
+- 📢 Share ke teman
+- 📝 Contribute PR
+
+---
+
+**Questions?** Create [Issue](https://github.com/kominiyou/ambatukam/issues)  
+**Contribute?** Send [PR](https://github.com/kominiyou/ambatukam/pulls)
 
 ---
 
