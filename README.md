@@ -1,143 +1,209 @@
 # 🤖 AutoReactionStory WhatsApp Bot
 
-> **Self Bot WhatsApp dengan fitur Otomatis Reaction Story & Command Control**
+<div align="center">
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-brightgreen.svg)
+<!-- Animated Banner -->
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-00AA00?style=for-the-badge&logo=github&logoColor=white" alt="Status">
+<img src="https://img.shields.io/badge/VERSION-1.0.0-0066FF?style=for-the-badge&logo=npm" alt="Version">
+<img src="https://img.shields.io/badge/Node.js-18%2B-00FF00?style=for-the-badge&logo=node.js" alt="Node.js">
+<img src="https://img.shields.io/badge/License-MIT-FF6600?style=for-the-badge" alt="License">
 
----
+**Self Bot WhatsApp dengan fitur Otomatis Reaction Story & Command Control**
 
-## 📋 Daftar Isi
+⭐ Star repo ini jika bermanfaat!
 
-- [🎯 Fitur](#-fitur)
-- [⚙️ Requirements](#️-requirements)
-- [🚀 Instalasi](#-instalasi)
-- [⚡ Konfigurasi](#-konfigurasi)
-- [📖 Panduan Penggunaan](#-panduan-penggunaan)
-- [💻 Command List](#-command-list)
-- [📊 Monitoring](#-monitoring)
+</div>
 
 ---
 
-## 🎯 Fitur
+## 🎯 Quick Links
 
-> [!IMPORTANT]
-> Self Bot - Hanya untuk akun personal & pembelajaran. Gunakan dengan bijak!
+<table>
+<tr>
+<td width="25%" align="center">
 
-### ✨ Fitur Utama
+### 📖 Dokumentasi
+[Baca Selengkapnya ↓](#-panduan-penggunaan)
 
-- 🔌 **Koneksi WhatsApp Langsung** - Connect via QR Code atau Pairing Code
-- 🎮 **Command System** - Full command control untuk owner
-- 💾 **Session Management** - Auto-save session & reconnect otomatis
-- 📱 **Media Support** - Download & process media dari chat
-- 👥 **Group Management** - List groups & manage participants
-- 🏷️ **View Once Support** - Buka pesan view once
-- ⚡ **Real-time Monitoring** - Monitor memory usage & system stats
-- 🛡️ **Auto-filter Logs** - Clean console dari log tidak penting
-- 🔄 **Auto-reconnect** - Reconnect otomatis jika koneksi putus
+</td>
+<td width="25%" align="center">
+
+### 💬 Fitur
+[Lihat Semua ↓](#-fitur-utama)
+
+</td>
+<td width="25%" align="center">
+
+### ⌨️ Command
+[Command List ↓](#-command-list)
+
+</td>
+<td width="25%" align="center">
+
+### 🔧 Setup
+[Mulai Sekarang ↓](#-instalasi)
+
+</td>
+</tr>
+</table>
+
+---
+
+## ✨ Fitur Utama
+
+<details open>
+<summary><b>🚀 Klik untuk Melihat Fitur-Fitur</b></summary>
+
+> [!TIP]
+> Scroll ke bawah untuk melihat command lengkap
+
+```
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  ✅ FITUR TERSEDIA            ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃                                 ┃
+┃  🔌 Koneksi WhatsApp Langsung   ┃
+┃  🎮 Full Command System         ┃
+┃  💾 Session Auto-Save           ┃
+┃  📱 Media Download Support      ┃
+┃  👥 Group Management            ┃
+┃  🏷️ View Once Handler           ┃
+┃  ⚡ Real-time RAM Monitor      ┃
+┃  🛡️ Auto-filter Logs           ┃
+┃  🔄 Auto-Reconnect             ┃
+┃  📊 Memory Protection           ┃
+┃                                 ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
+</details>
 
 ---
 
 ## ⚙️ Requirements
 
+<details open>
+<summary><b>📋 System Requirements</b></summary>
+
+| Requirement | Status |
+|------------|--------|
+| **Node.js** | v18.0.0+ ✅ |
+| **npm/yarn** | Latest ✅ |
+| **WhatsApp** | Personal Account ✅ |
+| **Internet** | Stabil ✅ |
+| **RAM** | Min 512MB ✅ |
+| **Storage** | Min 200MB ✅ |
+
+```bash
+# Check Node.js version
+node --version  # harus >= 18.0.0
+npm --version   # latest version
 ```
-✅ Node.js v18.0.0 atau lebih tinggi
-✅ npm atau yarn
-✅ WhatsApp Account (personal)
-✅ Internet Connection stabil
-```
+
+</details>
 
 ---
 
 ## 🚀 Instalasi
 
-### Step 1️⃣ Clone Repository
+### 📥 Step 1: Clone Repository
 
 ```bash
 git clone https://github.com/kominiyou/ambatukam.git
 cd ambatukam
 ```
 
-### Step 2️⃣ Install Dependencies
+### 📦 Step 2: Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Step 3️⃣ Setup Environment
+### ⚙️ Step 3: Setup Environment
 
 ```bash
-# Edit .env dengan text editor favorit
+# Copy file template
+cp .env.example .env
+
+# Edit dengan text editor
 nano .env
 ```
 
----
-
-## ⚡ Konfigurasi
-
-> [!NOTE]
-> Pastikan format nomor menggunakan kode negara (62XXXXXXXXXXX)
-
-### 📝 Environment Variables
+<details>
+<summary><b>🔑 Environment Variables</b></summary>
 
 ```env
-# Logger Level (info, warn, error, fatal, silent)
+# Logger Level
 BOT_LOGGER_LEVEL=silent
+# Pilihan: info, warn, error, fatal, silent
 
-# Log all messages
+# Log Messages
 BOT_LOG_MESSAGE=true
 
-# Max retries sebelum disconnect
+# Max Retries
 BOT_MAX_RETRIES=3
 
-# Nomor untuk Pairing Code (optional)
+# Pairing Mode (optional)
 BOT_NUMBER_PAIR=6289681008411
 
-# Owner Number (bisa multiple: 6289681008411,6289876543210)
+# Owner Number (support multiple: 62XX,62YY)
 BOT_NUMBER_OWNER=6289681008411
 
-# Session name
+# Session Name
 BOT_SESSION_NAME=hisoka
 
 # Command Prefix
 BOT_PREFIX="(?:[°•π÷×¶∆£¢€¥®™+✓=|/~!?@#%^&.©^])"
 
-# Allow command tanpa prefix
+# No Prefix Commands
 BOT_ALLOWED_NO_PREFIX=true
 
-# Bot reaction emoji
+# Reaction Emoji
 BOT_REACT_STATUS=❤️,💀,😋,😊,😒,🔥
 
-# Telegram (optional)
+# Telegram Integration (optional)
 TELEGRAM_TOKEN=
 TELEGRAM_CHAT_ID=
 ```
 
+</details>
+
 ---
 
-## 📖 Panduan Penggunaan
+## 🎬 Panduan Penggunaan
 
-### 🎬 Quick Start
+### ▶️ Start Bot
 
+<details open>
+<summary><b>🔧 Pilih Mode</b></summary>
+
+#### 🔄 Development Mode (Auto-Reload)
 ```bash
-# Development Mode (auto-reload)
 npm run dev
+```
+Gunakan untuk development & testing
 
-# Production Mode
+#### 🎯 Production Mode
+```bash
 npm start
 ```
+Gunakan untuk production
+
+</details>
 
 ### 🔗 Connect WhatsApp
 
-<details open>
-<summary><b>📱 Opsi 1: Scan QR Code</b></summary>
+<details>
+<summary><b>📱 Opsi 1: QR Code</b></summary>
 
 ```
-1. Run bot: npm start
+1. Run: npm start
 2. Scan QR code dari console
-3. Bot connect otomatis
+3. Bot langsung connect ✅
 ```
+
+**Kelebihan:** Cepat & mudah  
+**Kekurangan:** Session terbatas
 
 </details>
 
@@ -146,13 +212,16 @@ npm start
 
 ```
 1. Set BOT_NUMBER_PAIR=6289681008411 di .env
-2. Run bot: npm start
-3. Copy code dari console
+2. Run: npm start
+3. Copy kode dari console
 4. Buka WhatsApp > Settings > Linked Devices
 5. Pilih "Link a Device"
-6. Paste code
+6. Paste kode
 7. Done! 🎉
 ```
+
+**Kelebihan:** Lebih stabil & aman  
+**Kekurangan:** Butuh extra step
 
 </details>
 
@@ -163,30 +232,40 @@ npm start
 ### 🎯 Basic Commands
 
 <details open>
-<summary><b>📌 Lihat Command Lengkap</b></summary>
+<summary><b>📌 Command Dasar (Click untuk expand)</b></summary>
 
-#### Ping & Status
+#### ⏱️ Ping & Latency
 ```
-.p                    → Check latency & uptime
-.ping                 → Same as .p
-```
+Syntax: .p atau .ping
 
-#### Memory Monitoring
-```
-.cekram               → Quick RAM check (format simple)
-.checkram             → Same as .cekram
-.ramcheck             → Same as .cekram
-
-.memory               → Detailed memory status
-.ram                  → Same as .memory
-.mem                  → Same as .memory
+Fungsi: Check bot latency & uptime
+Output: Pong! Latency: XXms
+        Uptime: XXh XXm XXs
 ```
 
-#### Info & Menu
+#### 📊 Memory Monitor
 ```
-.menu                 → Show all commands
-.help                 → Same as .menu
-.info                 → Same as .menu
+Syntax: .cekram / .checkram / .ramcheck
+
+Fungsi: Quick RAM check (simple format)
+Output: 
+╭━━━『 *RAM STATUS* 』━━━┄
+┃ Process Memory: 88.18 MB / 50.24 GB (0.2%)
+┃ System Memory: 17.50 GB / 62.80 GB (27.8%)
+╰━━━━━━━━━━━━━━━┄
+
+Syntax: .memory / .ram / .mem
+
+Fungsi: Detailed memory status
+Output: Full memory breakdown (heap, system, etc)
+```
+
+#### 📋 Menu & Info
+```
+Syntax: .menu / .help / .info
+
+Fungsi: Show all available commands
+Output: Formatted command list
 ```
 
 </details>
@@ -194,31 +273,42 @@ npm start
 ### 👥 Group Commands
 
 <details>
-<summary><b>👨‍👩‍👧 Group Management</b></summary>
+<summary><b>👨‍👩‍👧 Group Management (Click untuk expand)</b></summary>
 
-#### Tag All Members
+#### 📣 Tag All Members
 ```
-.ht @text             → Tag all members dengan pesan
-.hidetag @text        → Same as .ht
-.everyone @text       → Same as .ht
-.all @text            → Same as .ht
+Syntax: .ht @text / .hidetag @text / .everyone @text / .all @text
 
-Contoh:
+Cara Pakai:
 .ht mari diskusi
 .ht @everyone meeting at 3pm
+
+Output: 
+Mention semua member dengan pesan yang diberikan
+Pesan tidak akan muncul di notifikasi umum (hidetag)
 ```
 
-#### List Groups & Contacts
+#### 📊 List Groups
 ```
-.groups               → Tampilkan semua groups
-.group                → Same as .groups
-.listgroups           → Same as .groups
-.listgroup            → Same as .groups
+Syntax: .groups / .listgroups
 
-.contacts             → Tampilkan statistik contacts
-.contact              → Same as .contacts
-.listcontacts         → Same as .contacts
-.listcontact          → Same as .listcontacts
+Output:
+Total X groups
+Total participants: XXX
+
+1. Group Name - XX participants
+2. Group Name - XX participants
+...
+```
+
+#### 👥 List Contacts
+```
+Syntax: .contacts / .listcontacts
+
+Output:
+- All Contacts: XXX
+- Saved Contacts: XXX
+- Not Saved Contacts: XXX
 ```
 
 </details>
@@ -226,82 +316,87 @@ Contoh:
 ### 📱 Media Commands
 
 <details>
-<summary><b>🎬 View Once & Media</b></summary>
+<summary><b>🎬 Media & File Handling (Click untuk expand)</b></summary>
 
-#### Buka View Once Message
+#### 🖼️ View Once Handler
 ```
-.rvo                  → Reply ke pesan view once
-.viewonce             → Same as .rvo
-.vo                   → Same as .rvo
+Syntax: .rvo / .viewonce / .vo
 
-Format support:
-  🖼️ Image View Once
-  🎥 Video View Once
-  🎵 Audio View Once
-  📄 Dokumen View Once
-  🏷️ Sticker View Once
+Format Support:
+  🖼️ Image         🎥 Video
+  🎵 Audio         📄 Document
+  🏷️ Sticker
 
-Cara pakai:
+Cara Pakai:
 1. Reply ke pesan view once
 2. Ketik: .rvo
-3. Media akan dikirim ulang tanpa view once
+3. Media akan dikirim ulang tanpa view once ✅
+
+Note: Pesan original akan tetap view once
 ```
 
-#### Quoted Message
+#### 📎 Quoted Message
 ```
-.q                    → Forward quoted message
-.quoted               → Same as .q
+Syntax: .q / .quoted
 
-Cara pakai:
-1. Reply ke pesan
+Cara Pakai:
+1. Reply ke pesan apapun
 2. Ketik: .q
-3. Message akan di-forward
+3. Pesan akan di-forward
+
+Gunakan untuk: Backup message penting
 ```
 
 </details>
 
-### 💻 Advanced Commands
+### ⚡ Advanced Commands
 
 > [!WARNING]
-> Hanya untuk owner! Digunakan untuk debugging & troubleshooting
+> **⚠️ HANYA UNTUK OWNER!**  
+> Command ini berbahaya & hanya untuk owner yang terpercaya
 
 <details>
-<summary><b>⚙️ Developer Tools</b></summary>
+<summary><b>💻 Developer Tools (Click untuk expand)</b></summary>
 
-#### Execute JavaScript
+#### 🔧 Execute JavaScript
 ```
-.eval code            → Execute JavaScript code
-.> code               → Same as .eval
+Syntax: .eval code / .> code
 
 Contoh:
 .eval return process.version
 .> JSON.stringify(global.memoryMonitor?.getStatus())
+
+⚠️ Penggunaan: Debug & troubleshooting saja
 ```
 
-#### Execute System Command
+#### 🖥️ Execute System Command
 ```
-.exec command         → Execute bash command
-.bash command         → Same as .exec
-.$ command            → Same as .exec
+Syntax: .exec command / .bash command / .$ command
 
 Contoh:
 .bash ls -la
 .$ pwd
 .exec whoami
+
+⚠️ Penggunaan: System administration saja
 ```
 
 </details>
 
 ---
 
-## 📊 Monitoring
+## 📊 Monitoring & Status
 
-### 🔍 Cek RAM Real-time
+### 💾 Memory Monitor
 
+<details open>
+<summary><b>🔍 Cek Status RAM Real-time</b></summary>
+
+#### Quick Check
 ```
-Ketik: .cekram
+Command: .cekram
 
-Output:
+Output Format:
 ╭━━━『 *RAM STATUS* 』━━━┄
 ┃
 ┃ *Process Memory*
@@ -315,12 +410,11 @@ Output:
 ╰━━━━━━━━━━━━━━━┄
 ```
 
-### 📈 Detailed Memory Status
-
+#### Detailed Status
 ```
-Ketik: .memory
+Command: .memory
 
-Output:
+Output Format:
 ╭━━━『 *💾 MEMORY STATUS* 』━━━┄⊱
 ┃
 ┃ *📊 Process Memory*
@@ -332,7 +426,7 @@ Output:
 ┃ • Total: 2.15 GB
 ┃ • Used: 45.82 MB
 ┃
-┃ *🖥️ System Memory (Server)*
+┃ *🖥️ System Memory*
 ┃ • Total: 62.80 GB
 ┃ • Used: 20.07 GB
 ┃ • Free: 42.73 GB
@@ -341,41 +435,44 @@ Output:
 ┃ • Enabled: ✅ Yes
 ┃ • Auto Detect: ✅ 80%
 ┃ • Check Interval: 30s
-┃ • Log Usage: ✅ Yes
 ┃ • Uptime: 2h 34m 12s
 ┃
 ╰━━━━━━━━━━━━━━━┄⊱
-
-⚠️ Jika usage > 80%, bot akan auto-restart!
 ```
+
+</details>
 
 ### 🛡️ Auto-Protection
 
-- ✅ Monitor memory setiap 30 detik
-- ✅ Auto-restart jika exceed limit
-- ✅ Warning jika usage > 80%
-- ✅ Clean logging tanpa noise
+```
+✅ Real-time monitoring setiap 30 detik
+✅ Auto-restart jika memory exceed limit
+✅ Warning notification jika usage > 80%
+✅ Clean logging tanpa noise
+✅ System protection & stability
+```
 
 ---
 
 ## 🔧 Troubleshooting
 
-### ❌ Bot Tidak Connect
+### 🚨 Bot Tidak Connect
 
 <details>
-<summary><b>Solusi</b></summary>
+<summary><b>❌ Solusi (Click untuk expand)</b></summary>
 
 ```bash
-# 1. Hapus session lama
+# 1. Reset session
 rm -rf sessions/
 
 # 2. Check .env
 cat .env | grep BOT_
 
-# 3. Run dengan debug mode
+# 3. Debug mode
 BOT_LOGGER_LEVEL=info npm start
 
-# 4. Coba pairing code (lebih stable)
+# 4. Try pairing code
+# Set BOT_NUMBER_PAIR di .env
 ```
 
 </details>
@@ -383,16 +480,18 @@ BOT_LOGGER_LEVEL=info npm start
 ### 🔌 Connection Keep Dropping
 
 <details>
-<summary><b>Solusi</b></summary>
+<summary><b>❌ Solusi (Click untuk expand)</b></summary>
 
 ```bash
-# 1. Increase retry
+# 1. Increase retries
 BOT_MAX_RETRIES=10 npm start
 
 # 2. Check internet
 ping -c 10 8.8.8.8
 
-# 3. Update session
+# 3. Use pairing code (lebih stable)
+
+# 4. Fresh session
 rm -rf sessions/*/
 npm start
 ```
@@ -402,17 +501,20 @@ npm start
 ### 💾 Memory Usage Tinggi
 
 <details>
-<summary><b>Solusi</b></summary>
+<summary><b>❌ Solusi (Click untuk expand)</b></summary>
 
 ```bash
-# 1. Monitor realtime
+# 1. Monitor with
 .cekram
 
-# 2. Clear sessions
+# 2. Clear old sessions
 rm -rf sessions/*/
 
 # 3. Restart bot
 npm start
+
+# 4. Check what's consuming memory
+.eval console.log(process.memoryUsage())
 ```
 
 </details>
@@ -423,74 +525,78 @@ npm start
 
 ```
 ambatukam/
-├── src/
-│   ├── index.js                 ← Entry point
-│   ├── handler/
-│   │   ├── message.js          ← Commands & message handler
+│
+├── 📁 src/                      ← Source code
+│   ├── index.js                 ← Entry point & main logic
+│   ├── 📁 handler/
+│   │   ├── message.js          ← Command handler
 │   │   └── event.js            ← Event listeners
-│   ├── helper/
+│   ├── 📁 helper/
 │   │   ├── inject.js           ← Client injector
-│   │   ├── memoryMonitor.js    ← Memory monitoring
-│   │   ├── utils.js            ← Utilities
+│   │   ├── memoryMonitor.js    ← RAM monitoring
+│   │   ├── utils.js            ← Utility functions
 │   │   └── collect.js          ← Message collection
-│   └── db/
+│   └── 📁 db/
 │       └── json.js             ← JSON database
-├── sessions/                    ← WhatsApp session (auto-generated)
-├── config.json                  ← Configuration
-├── .env                         ← Environment variables
-├── package.json                 ← Dependencies
-└── README.md                    ← Documentation
+│
+├── 📁 sessions/                 ← WhatsApp sessions (auto-generated)
+├── ⚙️ config.json               ← Configuration
+├── 🔑 .env                      ← Environment variables
+├── 📦 package.json              ← Dependencies
+└── 📖 README.md                 ← This file
 ```
 
 ---
 
-## 🔐 Security Tips
+## 🔐 Security & Best Practices
 
 > [!IMPORTANT]
-> Hal-hal penting untuk keamanan:
+> **Hal-hal Penting untuk Keamanan:**
 
-- ✅ **Jangan share `.env`** - Contains token & credentials
-- ✅ **Use Pairing Code** - Lebih aman dari QR
-- ✅ **Whitelist owner numbers** - Hanya trusted numbers
-- ✅ **Monitor memory** - Prevent system crash
-- ✅ **Keep sessions private** - Encrypt jika backup
-- ✅ **Update regularly** - Get security patches
+<details open>
+<summary><b>🔒 Security Checklist (Click untuk expand)</b></summary>
 
----
+```
+⚠️ JANGAN SHARE:
+  ❌ File .env (berisi token & credentials)
+  ❌ Folder sessions/ (berisi session data)
+  ❌ GitHub token atau API keys
 
-## 📝 License
+✅ GUNAKAN:
+  ✅ Pairing Code (lebih aman dari QR)
+  ✅ Strong BOT_NUMBER_OWNER
+  ✅ Environment variables untuk config
+  ✅ Regular session backups
+  ✅ Monitor memory & performance
 
-MIT License - Lihat [LICENSE](LICENSE) file
-
----
-
-## 👨‍💻 Author
-
-**Original:** Dika Ardnt  
-**Fork & Modifikasi:** kominiyou
-
----
-
-## 💡 Tips & Tricks
-
-<details>
-<summary><b>💡 Helpful Tips</b></summary>
-
-- 📌 Gunakan Pairing Code untuk connection yang lebih stable
-- 📌 Monitor memory secara berkala dengan `.cekram`
-- 📌 Set BOT_MAX_RETRIES > 3 untuk internet unstable
-- 📌 Disable logging di production: `BOT_LOGGER_LEVEL=silent`
-- 📌 Gunakan multiple owner dengan comma: `6281,6282,6283`
+🔄 MAINTENANCE:
+  • Update bot regularly
+  • Monitor memory usage
+  • Clear old sessions
+  • Rotate credentials
+  • Keep logs clean
+```
 
 </details>
 
 ---
 
+## 📝 License & Credits
+
 <div align="center">
+
+**MIT License** - Lihat [LICENSE](LICENSE)
+
+---
+
+**Original Author:** Dika Ardnt  
+**Fork & Modified by:** kominiyou
+
+---
 
 **Made with ❤️ using Node.js & Baileys**
 
-⭐ Star repo ini jika bermanfaat!
+### 🌟 Jika Bermanfaat, Jangan Lupa Star! ⭐
 
 [⬆ Ke Atas](#-autoreactionstory-whatsapp-bot)
 
