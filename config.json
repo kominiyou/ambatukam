@@ -1,0 +1,18 @@
+{
+  "memoryMonitor": {
+    "enabled": true,
+    "limitMB": 500,
+    "checkIntervalMs": 30000,
+    "logUsage": true,
+    "autoDetectLimit": true,
+    "autoDetectPercentage": 80,
+    "_comment": {
+      "enabled": "true = aktifkan memory monitor, false = matikan",
+      "limitMB": "limit memory dalam MB (digunakan jika autoDetectLimit = false)",
+      "checkIntervalMs": "interval check dalam milidetik (30000 = 30 detik)",
+      "logUsage": "true = tampilkan log memory, false = sembunyikan",
+      "autoDetectLimit": "true = limit otomatis berdasarkan RAM server, false = pakai limitMB",
+      "autoDetectPercentage": "persentase RAM server yang dijadikan limit (default 80%)"
+    }
+  }
+}

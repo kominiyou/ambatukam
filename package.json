@@ -1,0 +1,24 @@
+{
+  "name": "self-bot",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch-path=./src --watch-path=./.env src/index.js"
+  },
+  "keywords": [
+    "self-bot",
+    "whatsapp",
+    "baileys"
+  ],
+  "author": "Dika Ardnt.",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "baileys": "https://github.com/WhiskeySockets/Baileys/releases/download/v7.0.0-rc.6/baileys.tgz",
+    "dotenv": "^17.2.3",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
